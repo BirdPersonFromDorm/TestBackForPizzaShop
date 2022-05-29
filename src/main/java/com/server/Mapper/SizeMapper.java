@@ -9,9 +9,5 @@ import org.springframework.stereotype.Component;
 @Component
 public class SizeMapper {
 
-    public SizeDTO mapToDTO(Size size){
-        SizeDTO sizeDTO = new SizeDTO();
-        sizeDTO.setSize(size.getSize());
-        return sizeDTO;
-    }
+
 }
